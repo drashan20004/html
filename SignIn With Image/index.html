@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<head>
-    <title>SignIn</title>
-</head>                                                                       
+<html lang="en">
 
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
     <div class="card">
@@ -14,44 +16,47 @@
             <p>Fill the form below to create an account</p>
             <form>
                 <div class="form_row">
-                <div>
-                <label for="">First name*</label>
-                <input type="text" class="fn">
+                    <div>
+                        <label for="">First name*</label>
+                        <input type="text" class="fn">
+                    </div>
+
+                    <div>
+                        <label for="">Last name*</label>
+                        <input type="text" class="ln">
+                    </div>
                 </div>
 
-                <div>
-                <label for="">Last name*</label>
-                <input type="text" class="ln">
-                </div>
-                </div>
-                
                 <label for="">Email*</label><br>
-                <input type="email" class="email">
+                <input type="email" id="email" class="email">
 
                 <div class="password_row">
-                <div>
-                <label for="">Password*</label>
-                <input type="password" class="po">
+                    <div>
+                        <label for="">Password*</label>
+                        <input type="password" id="pass" class="po">
+                    </div>
+
+                    <div>
+                        <label for="">Password confirmation*</label>
+                        <input type="password" id="passco" class="poc">
+                    </div>
                 </div>
 
-                <div>
-                <label for="">Password confirmation*</label>
-                <input type="password" class="poc">
+
+                <p class="terms">We want you to know exactly how our service works and why we need your details.</p>
+                <p class="terms">Please confirm that you have read,understood and accept the terms and condtions.</p>
+
+                <div class="box">
+                    <input type="checkbox" required>
+                    <p class="red">I have read,understood and accept the terms and conditions.</p>
                 </div>
-            </div>
+
+                <button onclick="button()">NEXT</button>
             </form>
-
-            <p class="terms">We want you to know exactly how our service works and why we need your details.</p>
-            <p class="terms">Please confirm that you have read,understood and accept the terms and condtions.</p>
-
-            <div class="box">
-            <input type="checkbox" >
-            <p class="red">I have read,understood and accept the terms and conditions.</p>
-            </div>
-
-            <button>NEXT</button>
-
-             </div>
+        </div>
         <img class="image" src="images/sss.jpg" alt="">
     </div>
 </body>
+<script src="script.js"></script>
+
+</html>

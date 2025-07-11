@@ -124,6 +124,7 @@ button{
   height: 38px;
   font-weight: 700;
   margin-top: 3px;
+  cursor: pointer;
 }
 
 
