@@ -22,11 +22,7 @@ nav {
   font-family: sans-serif;
 }
 .title a:hover {
-  border: 1px solid #ffffff;
-  border-width: 4px;
-  transition: 0.3s ease;
-  border-radius: 10px;
-  padding: 5px;
+  color: #2dff6c;
 }
 
 .navcontent {
@@ -42,11 +38,8 @@ nav {
   font-weight: bold;
 }
 .navcontent a:hover {
-  border: 1px solid #ffffff;
-  border-width: 4px;
-  transition: 0.3s ease;
-  border-radius: 10px;
-  padding: 5px;
+ text-decoration: underline;
+ color: yellow;
 }
 
 .searchbar {
@@ -55,9 +48,7 @@ nav {
   border: none;
 }
 .searchbar:hover {
-  background-color: #e6e6e6;
-  border: 1px solid #888;
-  transition: 0.3s ease;
+  background-color: #fdcaca;
 }
 
 i {
@@ -70,8 +61,13 @@ i {
   font-size: 16px;
   gap: 5px;
 }
+.navicons:hover{
+  background-color: #2dff6c;
+  color: rgb(255, 255, 255);
+}
 
-
+/* 
+1stimage */
 .card{
     background-color: #ffffff;
     height: 255px;
@@ -93,10 +89,6 @@ i {
     flex:1;
     width: 80px;
 }
-.image:hover {
-  transition: 0.3s ease;
-  padding: 5px;
-}
 .launch{
       width: 100px;
   background-color: #2f80ed;
@@ -107,12 +99,8 @@ i {
   margin-top: 3px;
   cursor: pointer;
 }
-.launch:hover {
-  border: 1px solid #000000;
-  border-width: 4px;
-  transition: 0.3s ease;
-  border-radius: 10px;
-  padding: 5px;
+.launch:hover{
+  background-color: black;
 }
 
 .card2{
@@ -129,20 +117,15 @@ i {
     font-family: 'Segoe UI';
     color: grey;
 }
-.heading2:hover {
-  transition: 0.3s ease;
-  padding: 10px;
+.heading2:hover{
+  font-weight: bold;
 }
+
 .image2{
     flex:1;
     width: 60px;
     margin-left: 40px;
     border-radius: 20px;
-}
-.image2:hover {
-  border: 1px solid #ffffff;
-  transition: 0.3s ease;
-  padding: 5px;
 }
 
 h6{
@@ -160,9 +143,13 @@ p{
     font-family: sans-serif;
     margin-top: 40px;
 }
+.why:hover{
+  text-decoration: underline;
+  color: blue;
+}
 .card3{
     background-color:#ffffff;
-    height: 250px;
+    height: 30vh;
 }
 
 .cardcontent {
@@ -174,14 +161,13 @@ p{
 }
 
 .logoconent {
-   padding: 15px;
-  margin-top: 20px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 200px; 
 }
-.logoconent:hover {
-  transition: 0.3s ease;
-  padding: 5px;
-}
+
 
 .icons {
   font-size: 30px;
@@ -190,6 +176,10 @@ p{
   padding: 10px;
   border-radius: 50%;
   margin-right: 50px;
+}
+
+.icons:hover{
+  background-color: #2dff6c;
 }
 
 
@@ -218,6 +208,10 @@ p{
     margin-top: 40px;
     padding: 30px;
 }
+.core:hover{
+  color: blue;
+  text-decoration: underline;
+}
 
 .card4{
     background-color:#f3f3f5;
@@ -232,21 +226,17 @@ p{
 .boxlogo{
     padding: 15px;
     margin-top: 20px;
-    height: 100px;
+    height: 120px;
     width: 200px;
     text-align: center;
     border: rgb(128, 123, 123) 2px solid;
     border-radius: 10px;
 }
 .boxlogo:hover {
-  border: 1px solid #2f80ed;
-  border-width: 4px;
-  transition: 0.3s ease;
-  padding: 5px;
+  background: #aab4fa;
+  color: rgb(0, 0, 0);
 }
-.alignment{
-    margin-top: -100px;
-}
+
 .box2content{
   display: flex;
   justify-content: space-around;
@@ -256,7 +246,7 @@ p{
 }
 
 .logo{
-    margin-top: 10px;
+    margin-top: 17px;
     font-size: 14px;
   font-family: sans-serif;
 }
@@ -285,11 +275,9 @@ p{
 }
 .form{
     flex: 1;
-    background-color: #ffffff;
     padding: 10px;
-    margin-left:90px;
-    background-color:  #f3f3f5;;
-
+    margin-left:0px;
+    background-color:rgba(103, 103, 103,103,0.3);;
 }
 
 .image4{
@@ -312,18 +300,15 @@ p{
   border: none;
 }
 .email:hover {
-  border: 1px solid #2f80ed;
-  border-width: 2px;
-  transition: 0.3s ease;
-  padding: 5px;
+  background-color:gainsboro;
 }
 
 
 button{
-  width: 430px;
+  width: 76%;
   background-color: #2f80ed;
   border-style: none;
-  color: azure;
+  color: rgb(0, 0, 0);
   height: 38px;
   font-weight: 700;
   margin-top: 3px;
@@ -331,11 +316,7 @@ button{
   border-radius: 8px;
 }
 button:hover {
-  border: 1px solid #000000;
-  border-width: 4px;
-  transition: 0.3s ease;
-  border-radius: 10px;
-  padding: 5px;
+  background:rgb(255, 255, 255);
 }
 
 
@@ -344,7 +325,7 @@ button:hover {
     width: 400px;
     margin-left: 10px;
     margin-top: 6px;
-    background-color:rgb(255, 255, 255);
+    background-color:blue;
     color: black;
     border-radius: 10px;
 }
@@ -354,8 +335,7 @@ button:hover {
     background-color: blue;
 }
 .b2:hover {
- opacity: 0.8;
-  transition: opacity 0.3s ease;
+  background-color: rgb(255, 255, 255);
 }
 
 .buttoncard{
@@ -364,48 +344,51 @@ button:hover {
     display: flex;
     border-radius: 10px;
     height: 50px;
-    margin-left: 150px;
     margin-top: 50px;
 }
-.buttoncard:hover {
-  border: 1px solid #000000;
-  border-width: 2px;
-  transition: 0.3s ease;
-  border-radius: 10px;
-  padding: 4px;
-}
 
-.lampcontent{
-  display: flex;
-  margin-left: 190px;
-  gap: 40px;
-  padding: 20px;
-}
+
 .lamp:hover {
-  border: 1px solid #2f80ed;
-  border-width: 4px;
-  transition: 0.3s ease;
-  border-radius: 10px;
-  padding: 5px;
+ background-color: #2dff6c;
 }
 
-.lamp{
-    padding: 15px;
-    margin-top: 20px;
-    height: 45px;
-    width: 200px;
-    text-align: center;
-    border: rgb(128, 123, 123) 2px solid;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.factss {
+  display: flex;
+  justify-content: center;
+}
+
+.lampcontent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  max-width: 800px;         
+  width: 100%; 
+}
+
+.lamp {
+  padding: 15px;
+  margin-top: 20px;
+  height: 45px;
+  width: 200px;
+  text-align: center;
+  border: rgb(128, 123, 123) 2px solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lampicon {
   font-size: 24px;
   color: #555;
   margin-bottom: 8px;
+  margin-right: 20px;
   display: block;
 }
 
@@ -422,29 +405,35 @@ button:hover {
   padding: 20px;
 }
 
+.card7{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  align-items: center;
+}
+
 .card7head{
     display: flex;
-    margin-left: 100px;
+    justify-content: center;
     font-family: sans-serif;
-    margin-top: 20px;
     padding: 30px;
     color: #2f80ed;
 }
 
 .carddetails{
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     padding: 40px;
     gap: 120px;
-    margin-bottom: 30px;
 }
 .f1{
+  display: flex;
+  align-content: flex-start;
   font-size: large;
   color: #2f80ed;
   font-family: sans-serif;
-}
-.f1:hover {
-  transition: 0.3s ease;
-  padding: 5px;
 }
 
 .af{
@@ -452,10 +441,91 @@ button:hover {
 }
 .location{
   display: flex;
+  align-items: center;
   padding: 10px;
 }
 
 
+@media (max-width: 780px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navcontent {
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  .searchbar {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card{
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .card2{
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .card3{
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .card5{   
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .card7{
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+
+  .heading, .heading2 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .image, .image2, .image4 {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+  }
+
+  .buttoncard {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .lampcontent, .lamp2content {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .carddetails {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .email, button {
+    width: 100%;
+  }
+}
 
 
 
