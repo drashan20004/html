@@ -47,11 +47,6 @@ nav{
     color: #fff;
 }
 
-
-
-
-
-
 section{
     min-height: 100vh;
     display: flex;
@@ -92,12 +87,6 @@ section{
     box-shadow: 0px 2px 4px 4px rgba(0,0,0,.3);
 }
 
-
-
-
-
-
-
 #about{
     background:linear-gradient(rgba(9, 234, 24, 0.3),rgba(103, 119, 220, 0.7));
 }  
@@ -115,11 +104,6 @@ section{
     color: rgb(45, 40, 40);
     font-weight: bold;
 }
-
-
-
-
-
 #product{
      background:linear-gradient(rgba(103, 119, 220, 0.7),rgba(9, 234, 24, 0.3));
 }
@@ -136,8 +120,6 @@ section{
     transition: 0.2 ease;
     color: azure;
 }
-
-
 #product h1{
     font-weight: 500;
     font-size: 60px;
@@ -153,13 +135,6 @@ section{
     justify-content: center;
     font-size: large;
 }
-
-
-
-
-
-
-
 #contact{
        background:linear-gradient(rgba(103, 119, 220, 0.7),rgba(9, 234, 24, 0.3));
 }
